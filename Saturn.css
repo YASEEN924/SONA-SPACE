@@ -1,0 +1,38 @@
+body {background-image: url(Saturn\ Background.png);}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: fantasy;
+}
+
+
+
+h1 {
+    color: bisque;
+    font-size: 100px;
+    text-align: center;
+    animation: slide 3s 
+;}
+@keyframes slide {
+0% {transform: translateY(0px);opacity: 1;
+    
+transform: translateY(15px);opacity: 0;}
+}
+p {
+    color:bisque ;
+font-size: 15px;
+text-align: center;
+
+
+
+
+
+
+
+
+
+}
+
+.video {
+    text-align: center;
+}

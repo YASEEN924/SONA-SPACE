@@ -1,0 +1,121 @@
+a {text-decoration: none;}
+body {background-color: black;}
+* {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family:fantasy ;
+ text-align: center;
+}
+#WELCOME {
+    background: linear-gradient(to bottom,#1b263b,black);
+    text-align: center;
+    padding: 20px;
+    filter: drop-shadow(2px 2px 100px white);
+
+}
+
+.Planets {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    margin-top: 30px;
+
+}
+.MISSIONS {
+display: flex;
+flex-direction: column;
+gap: 15px;
+max-width: 400px;
+margin: auto;
+}   
+.mission{
+    padding: 20px;
+background:linear-gradient(to left ,aquamarine , #1b263b );
+border-radius: 10px;
+}
+
+
+
+
+.Planet {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+box-shadow: white 15px;
+transition: transform .3s,box-shadow .3s;
+   animation: float 3s ease-in-out infinite;
+   width: 140px;
+   height: 140px;
+   border-radius:50% ;
+cursor: pointer;
+transition: all .3s ease;
+}
+
+@keyframes float {
+    0%,100%{
+transform: translateY(0);
+
+    }
+50% {transform: translateY(-15px);}
+
+}
+
+.Earth {
+background: radial-gradient(circle, #4facfe, #1e3c72);
+
+}
+.Mars {background: radial-gradient(circle, orange, red);}
+.Saturn {
+    background: radial-gradient(circle, cornsilk, salmon);
+}
+
+.moon {
+    background: radial-gradient(circle, silver, gray);
+}
+
+.cards {
+justify-content: center;
+display: flex;
+gap: 15px;
+
+}
+
+
+
+
+.Stat {
+background-color:cornflowerblue ;
+border-radius: 5px;
+display: inline-block;
+padding: 5px;
+
+}
+.Planet:hover {
+transition: .2s ease-in;
+scale: 1.1;
+
+}
+
+.Padge {
+    background-color:darkblue ;
+border-radius: 5px;
+display: inline-block;
+margin: 10px;
+padding: 5px;
+}
+.Padges {
+    justify-content: center;
+
+
+}
+.footer {
+padding: 20px;
+    background-color:#1e3c72;
+    text-align: center;
+}
+
+

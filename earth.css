@@ -1,0 +1,66 @@
+body {background-image: url(Earth.png);}
+* {
+    color: white;
+    font-family: fantasy;
+    padding: 0px;
+    margin: 0px;
+}
+h1 {text-align: center;
+    font-size: 100px;
+background: url(Earth7.png);
+color: transparent;
+-webkit-background-clip: text;
+background-clip: text;
+    animation: slide 3s 
+;}
+@keyframes slide {
+0% {transform: translateY(0px);opacity: 1;
+    
+transform: translateY(15px);opacity: 0;}
+}
+
+
+
+img {
+    border-radius: 10px;
+}
+
+
+h2 {font-size: 15px;}
+
+
+
+
+
+.video {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

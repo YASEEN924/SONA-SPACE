@@ -1,0 +1,57 @@
+body {background-image: url(Mars\ background.png);}
+* {padding: 0px;
+margin: 0px;
+font-family: fantasy;}
+h1{
+text-align: center;
+color: orange;
+font-size: 100px;
+animation: slide 3s 
+;}
+@keyframes slide {
+0% {transform: translateY(0px);opacity: 1;
+    
+transform: translateY(15px);opacity: 0;}
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+}
+
+
+
+.video {
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
